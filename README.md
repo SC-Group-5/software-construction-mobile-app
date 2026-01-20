@@ -1,8 +1,11 @@
 # Software Construction - Behind the App: Thinking Like Software Engineers
 
 **Course:** Software Construction   
+
 **Assignment Type:** Mobile application analysis 
-**Group Members:** [Rebecca Alinda., Anna Akumu.,Wakabi Precious Namaganda., Odongkara Oscar., Joseph Mukama]  
+
+**Group Members:** [Rebecca Alinda., Anna Akumu.,Wakabi Precious Namaganda., Odongkara Oscar., Joseph Mukama] 
+
 **Selected App:** Spotify  
 
 This README contains our group's complete submission for Assignment 1. We analyzed Spotify, a music streaming app we all use frequently for discovering and listening to music, podcasts, and more.
