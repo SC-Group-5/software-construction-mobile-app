@@ -94,13 +94,17 @@ Identify **at least 5** engineering challenges in maintaining/improving Spotify.
 ## Part E: Group Reflection
 
 1. **What surprised your group most about the complexity behind this app?**  
-   [Your group's answer... e.g., How much machine learning, microservices, and global scaling is involved just to suggest the next song.]
+   1. collaborative playlist. this involves creation of music playlist with friends and playing
+   2. 
 
-2. **Why is writing “working code” not enough for software systems at this scale?**  
-   [Your answer... e.g., It must be maintainable by teams, scalable to millions, secure, testable across devices, and evolvable over years without breaking existing users.]
+3. **Why is writing “working code” not enough for software systems at this scale?**  
+   1. 
+   2. 
 
-3. **What did you learn about teamwork from this exercise?**  
-   [Your answer... e.g., Dividing roles helped cover different perspectives, but real discussion and merging ideas was key to deeper insights.]
+5. **What did you learn about teamwork from this exercise?**  
+   1. Easier to tackle about a number ideas
+   2. finishing work in time in that every member will deliver work in time since the aspect given to them is a must do for them.
+   3. 
 
 ## Group Contributions (Required)
 - **Member 5 Name**: [e.g., Handled reflections in Part E and ensured clear formatting]
