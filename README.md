@@ -24,7 +24,7 @@ List 5–7 key features of Spotify (based on current app experience):
 1.** The login and registration **
 2. **The search button:** There is no way to get access to most of the stored playlists and albums
 3. ** Offline Downloads:** Permits saving content for offline use, emphasizing data storage strategies for reliability.
-4.  
+4.**  Lyrics Display (Real-Time Synced): **Shows timed lyrics during playback, a feature that ties UI with timing algorithms
 5.  
 6. 
 7.   
