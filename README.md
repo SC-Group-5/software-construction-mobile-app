@@ -21,9 +21,8 @@ This README contains our group's complete submission for Assignment 1. We analyz
 ## 2. Core Features
 
 List 5–7 key features of Spotify (based on current app experience):
-
-1. 
-2. 
+1.** The login and registration **
+2. **The search button:** There is no way to get access to most of the stored playlists and albums
 3.  
 4.  
 5.  
@@ -43,7 +42,9 @@ For **each** of the features listed above, discuss:
   - Data storage  
 
 - Whether the feature requires internet connectivity  
-- What might happen if the network is slow or unavailable  
+- What might happen if the network is slow or unavailable
+- 1. You will only be able to access the downloaded content
+  2. 
 
 **Feature 1: [e.g., Personalized playlists and recommendations]**  
 - Components:  
