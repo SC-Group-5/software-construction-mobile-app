@@ -63,13 +63,14 @@ For **each** of the features listed above, discuss:
 (Other options: Add offline support, Support 10× more users, Introduce dark mode across the app, Add mobile payments in Uganda)
 
 **Which parts of the app would need changes?**  
-[Your and animations, lighter recommendation logic, etc.                  ]
+1.
 
 **What existing features could break?**  
-[Your answer here... e.g., High-quality audio might become unavailable, personalized features could slow down or fail on low RAM, syncing across devices might struggle.]
+1.
 
 **Why would this change be difficult to implement?**  
-[Your answer here... e.g., Testing on thousands of low-end device models/OS versions, balancing performance without degrading experience for high-end users, handling varying network conditions in regions like Uganda.]
+1. Because the system is already deployed.
+2. 
 
 ## Part D: Software Construction Challenges
 
@@ -80,14 +81,16 @@ Identify **at least 5** engineering challenges in maintaining/improving Spotify.
 
 2. **Security and data privacy**  
    [Brief... e.g., Protecting user listening data, preventing unauthorized access, complying with global privacy laws like GDPR.]
+   1. one time login that kepps you logged in and this maybe insecure.
+   2. 
 
-3. **Testing across devices and OS versions**  
+4. **Testing across devices and OS versions**  
    [Brief... e.g., Ensuring the app works consistently on thousands of Android/iOS devices, old/new versions, and varying hardware.]
 
-4. **Reliability under poor network conditions**  
+5. **Reliability under poor network conditions**  
    [Brief... e.g., In areas with unstable internet (common in Uganda), buffering, offline fallbacks, and reconnection logic must be robust.]
 
-5. **Backward compatibility**  
+6. **Backward compatibility**  
    [Brief... e.g., New features can't break older app versions or devices still in use by millions.]
 
 (Add more if you want, e.g., Tight coupling between features, handling large-scale data for recommendations.)
