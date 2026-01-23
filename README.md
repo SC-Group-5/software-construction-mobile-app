@@ -21,19 +21,19 @@ This README contains our group's complete submission for Assignment 1. We analyz
 ## 2. Core Features
 
 List 5–7 key features of Spotify (based on current app experience):
-1.** The login and registration **
-2. **The search button:** There is no way to get access to most of the stored playlists and albums
-3. ** Offline Downloads:** Permits saving content for offline use, emphasizing data storage strategies for reliability.
-4.**  Lyrics Display (Real-Time Synced): **Shows timed lyrics during playback, a feature that ties UI with timing algorithms
-5.  
-6. 
+1. User authentication/The login and registration.
+2. The search button: There is no way to get access to most of the stored playlists and albums.
+3. Offline Downloads: Permits saving content for offline use, emphasizing data storage strategies for reliability.
+4. Lyrics Display(Real-Time Synced): Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
+5. Personalized Recommendations: Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
+6. Creation and management of playlists: Create, edit, share, and collaborate on playlists; add/remove tracks.
 7.   
 
 [Discuss briefly why these are core if needed.]
 
 ## Part B: Thinking Behind the Scenes
 
-For **each** of the features listed above, discuss:
+For each of the features listed above, discuss:
 
 - Likely software components involved:  
   - User Interface (UI)  
@@ -47,17 +47,32 @@ For **each** of the features listed above, discuss:
 - 1. You will only be able to access the downloaded content
   2. some features like the colloborative creation of playlists and messaging services wo't be available
 
-**Feature 1: [e.g., Personalized playlists and recommendations]**  
-- Components:  
-  -  
+Feature 1: User authentication/The login and registration.
+ - Likely software components involved:  
+    
 
-**Feature 2: [Name it]**  
-[Your group's reasoning here...]  
+Feature 2:    
 
-**Feature 3: [Name it]**  
-[Your group's reasoning here...]  
+Feature 3:  
 
-(Continue for all 5-7 features)
+Feature 4:  
+
+Feature 5: Personalized Recommendations.
+ - Likely software components involved:
+   -UI: Carousels and lists like "Discover Weekly."
+   -Business Logic: Machine learning models to analyze listening patterns and suggest content.
+   -Network/APIs: APIs to send user data and receive recommendation responses from servers.
+   -Data Storage: Local storage for user preferences; cloud for aggregated data.
+
+Does it require Internet? Yes, for updating recommendations.
+If Network Slow/Unavailable: Stale recommendations from last sync; new listens aren't factored in until reconnected, potentially reducing personalization accuracy.
+
+Feature 6: Creation and management of playlists
+
+Feature 7: 
+
+
+
 
 ## Part C: Change and Maintainability
 
