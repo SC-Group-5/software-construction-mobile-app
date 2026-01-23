@@ -103,13 +103,13 @@ Feature 4: Lyrics Display(Real-Time Synced)
 
 Feature 5: Personalized Recommendations.
  - Likely software components involved:
-   -UI: Carousels and lists like "Discover Weekly."
-   -Business Logic: Machine learning models to analyze listening patterns and suggest content.
-   -Network/APIs: APIs to send user data and receive recommendation responses from servers.
-   -Data Storage: Local storage for user preferences; cloud for aggregated data.
+   - UI: Carousels and lists like "Discover Weekly."
+   - Business Logic: Machine learning models to analyze listening patterns and suggest content.
+   - Network/APIs: APIs to send user data and receive recommendation responses from servers.
+   - Data Storage: Local storage for user preferences; cloud for aggregated data.
 
-Does it require Internet? Yes, for updating recommendations.
-If Network Slow/Unavailable: Stale recommendations from last sync; new listens aren't factored in until reconnected, potentially reducing personalization accuracy.
+- Does it require Internet? Yes, for updating recommendations.
+- If Network Slow/Unavailable: Stale recommendations from last sync; new listens aren't factored in until reconnected, potentially reducing personalization accuracy.
 
 Feature 6: Creation and management of playlists
 - Likely software components involved:  
