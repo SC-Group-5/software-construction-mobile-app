@@ -15,14 +15,16 @@ This README contains our group's complete submission for Assignment 1. We analyz
 **What problem does this app solve?**  
 1. Relation to Copyright, spotify provides legal, licensed access to music, reducing illegal copying. Artists and record labels are paid for streams, which protects copyright ownership. By making music easy and affordable to access, Spotify helps prevent copyright infringement.
 2. Centralizing Music Genres, before Spotify, music was spread across platforms like HowBizz for local Ugandan music, Tubidy for international pop and hip-hop, and Boomplay for African genres. Spotify brought all these genres into one platform, making music easier to find and enjoy in one place.
+3. 
 **Who are its primary users?**  
 1.
 
 ## 2. Core Features
 
 List 5–7 key features of Spotify (based on current app experience):
+
 1. User authentication/The login and registration.
-2. The search button: There is no way to get access to most of the stored playlists and albums.
+2. The search button: There is no way to get quick access to most of the stored playlists and albums minus using the search button.
 3. Offline Downloads: Permits saving content for offline use, emphasizing data storage strategies for reliability.
 4. Lyrics Display(Real-Time Synced): Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
 5. Personalized Recommendations: Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
@@ -47,11 +49,36 @@ For each of the features listed above, discuss:
 - 1. You will only be able to access the downloaded content
   2. some features like the colloborative creation of playlists and messaging services wo't be available
 
-Feature 1: User authentication/The login and registration.
- - Likely software components involved:  
-    
+**Feature 1: User authentication/The login and registration.**
+ - Likely software components involved:
+ - User Interface (UI)
+     Login screen with options:
+        Continue with email
+        Continue with phone number
+        Continue with Google
+     If email is selected → user is taken to an email and password screen
+     If phone number is selected → user is taken to a screen to enter phone number
+     If Google is selected → user is shown a list of Google accounts to choose from
+     This shows how the app guides the user step-by-step.
+  - Business Logic
+      Determines which login option the user selected
+      Validates email/password or phone number
+      Handles Google authentication flow
+      Creates a secure user session after successful login
+  - Network / APIs
+      Communicates with Spotify authentication servers
+      Uses Google authentication APIs for “Continue with Google”
+      Sends and verifies login credentials
+  - Data Storage
+      Stores authentication tokens locally on the device
+      Stores user account data securely on Spotify servers
+  - It requires internet, if there is no internet then the authentication process will not go through.
+  - If the network is slow or unavailable:
+      Login pages may not load
+      Verification may fail
+      User cannot access their account
 
-Feature 2:    
+**Feature 2: **
 
 Feature 3:  
 
