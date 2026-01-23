@@ -142,7 +142,8 @@ Feature 7:
 1.
 
 **What existing features could break?**  
-1.
+1.Lyrics sync might fail on slower processors due to timing demands.
+2.
 
 **Why would this change be difficult to implement?**  
 1. Because the system is already deployed.
