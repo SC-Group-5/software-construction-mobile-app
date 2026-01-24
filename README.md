@@ -25,12 +25,12 @@ This README contains our group's complete submission for Assignment 1. We analyz
 
 List 5–7 key features of Spotify (based on current app experience):
 
-1. User authentication/The login and registration.
+1. User authentication and Profile System/The login or signup page: There are multiple options like Email, Google, Facebook and Apple. There is also profile managemet, and account settings where users can manage their subscription tier (Free, Premium, Family, Student plans).
 2. The search button: There is no way to get quick access to most of the stored playlists and albums minus using the search button.
 3. Offline Downloads: Permits saving content for offline use, emphasizing data storage strategies for reliability.
 4. Lyrics Display(Real-Time Synced): Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
 5. Personalized Recommendations: Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
-6. Creation and management of playlists: Create, edit, share, and collaborate on playlists; add/remove tracks.
+6. Enhanced Personalisation Controls: Create, edit, share, and collaborate on playlists; add/remove tracks.
 7.   
 
 
