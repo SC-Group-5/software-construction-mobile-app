@@ -18,9 +18,10 @@ This README contains our group's complete submission for Assignment 1. We analyz
 3. Artist Distribution & Monetisation: For artists, getting music to listeners traditionally required record labels and physical distribution. Spotify provides a direct distribution channel where independent artists can reach global audiences and earn royalties based on streams.
 
 Basically, Spotify democratised music access while solving the friction between discovery, cost, and convenience.
+
 **Who are its primary users?
-1. Music enthusiasts within a specific age range(most preferably youth).
-2. Music artists and producers looking to sell their music.
+1. Music enthusiasts, casual listeners, podcast listeners, and fitness users that are young adults (18-34 years). This is Spotify's largest demographic segment. Millenials and Gen Z are the most active users, comfortable with streaming technology and digital music consumption.
+2. Content creators, Artists and Podcasters. Musicians, bands, podcaster, and audiobook creators who upload and distribute content through Spotify. They use Spotify for Artists/Podcasters dashboards to track analytics and earnings.
 
 
 ## 2. Core Features
@@ -82,9 +83,17 @@ For each of the features listed above, discuss:
       Verification may fail
       User cannot access their account
 
-Feature 2: The search button   
+Feature 2: The search functionality   
 - Likely software components involved:  
-  - User Interface (UI): 
+  - User Interface (UI):
+    1. Search Bar/Input field with a test input box with a placeholder tex, a clear/X button to reset input.
+    2. Search suggestions dropdown with a list suggested search terms as you type, recent searches section.
+    3. Search button/icon with a clickable search icon to trigger search and active/inactive states.
+    4. Category Filter Tabs with tab buttons "All", "Songs", "Artists", "Albums", "Playlists", "Podcasts", "Profiles"
+    5. Search Results Container with a grid or list ayout for results and a scrollable area.
+    6. Results Cards/List items with thumbnail/album art image, title text, subtitle/artist name text, duration/ metadata text, play button overlay, three-dot menu (for options), and hover effects.
+    7. Empty State Display with "No results found" message
+    8. Search history panel with a list of recent searches, "clear all" button, and individual delete buttons per search term.
   - Business logic: 
   - Network / APIs: 
   - Data storage: 
