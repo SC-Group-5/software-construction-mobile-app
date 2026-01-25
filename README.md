@@ -203,8 +203,12 @@ Feature 7: Streaming Playback & Controls
 2.Playback might stutter if buffering isn't optimized for low RAM.
 
 **Why would this change be difficult to implement?**  
-1. Because the system is already deployed.
-2. 
+1. **Because the system is already deployed**
+   - Spotify has hundreds of millions of users on the current codebase; any optimization must be rolled out gradually (e.g., via feature flags or A/B testing) without breaking the experience for high-end device users.
+3. **Tight coupling between features**
+   - Many UI elements (e.g., Now Playing, Home feed) share the same rendering pipeline and data models; optimizing one often affects others, risking regressions.
+5. **Device fragmentation**
+   - Android alone has thousands of device models with different screen sizes, RAM amounts (e.g., 1–2 GB common on low-end), processors, and OS versions; thorough testing across real hardware is expensive and time-consuming. 
 
 ## Part D: Software Construction Challenges
 
