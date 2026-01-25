@@ -26,12 +26,13 @@ This README contains our group's complete submission for Assignment 1. We analyz
 List 5–7 key features of Spotify (based on current app experience):
 
 1. User authentication and Profile System/The login or signup page: There are multiple options like Email, Google, Facebook and Apple. There is also profile managemet, and account settings where users can manage their subscription tier (Free, Premium, Family, Student plans).
-2. The search button: There is no way to get quick access to most of the stored playlists and albums minus using the search button.
+2. The search functionality: A powerful search bar that lets you find songs, artists, albums, playlists, podcasts, and audiobooks. It includes filters and a search history to quickly access previous queries.
 3. Offline Downloads: Permits saving content for offline use, emphasizing data storage strategies for reliability.
-4. Lyrics Display(Real-Time Synced): Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
-5. Personalized Recommendations: Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
-6. Enhanced Personalisation Controls: Create, edit, share, and collaborate on playlists; add/remove tracks.
-7.   
+4. Music Player Controls: Full-featured playback interface with play/pause, skip, shuffle, repeat, volume control, queue management, lyrics display, and casting to other devices (Spotify Connect) as well the share button.
+5. Personalized Home Feed: Dynamic homepage that displays recommended playlists like Daily Mixes, Discover Weekly, and Release Radar based on listening history, new releases, and curated sections and the time of day as well.
+6. Playlist Creation & Management: Provides the ability to create, edit, and organise custom playlists, add songs to library, collaborate on playlists with friends, reorder tracks with drag-and-drop, and download for offline listening Premium).
+7. Payment & Subscription Management: In -app payment gateway for upgrading to Premium, managing billing information, changing subscription plans, and accessing payment history. Multiple payment methods supported (Credit card, mobile carrier billing)
+8. Library & Collection Organisation: "Your Library" section where you can organise saved songs, albums, artists, podcasts, and audiobooks into folders and custom categories for easy access and management 
 
 
 ## Part B: Thinking Behind the Scenes
