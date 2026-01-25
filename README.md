@@ -29,10 +29,10 @@ Basically, Spotify democratised music access while solving the friction between 
 List 5–7 key features of Spotify (based on current app experience):
 
 1. **User authentication and Profile System/The login or signup page:** There are multiple options like Email, Google, Facebook and Apple. There is also profile managemet, and account settings where users can manage their subscription tier (Free, Premium, Family, Student plans).
-2. **The search functionality: **A powerful search bar that lets you find songs, artists, albums, playlists, podcasts, and audiobooks. It includes filters and a search history to quickly access previous queries.
+2. **The search functionality:** A powerful search bar that lets you find songs, artists, albums, playlists, podcasts, and audiobooks. It includes filters and a search history to quickly access previous queries.
 3. **Offline Downloads:** Permits saving content for offline use, emphasizing data storage strategies for reliability.
-4. **Lyrics Display(Real-Time Synced): **Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
-5. **Personalized Recommendations: **Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
+4. **Lyrics Display(Real-Time Synced):** Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
+5. **Personalized Recommendations:** Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
 6. **Streaming Playback & Controls:** Full player interface with play/pause, skip, shuffle, repeat, volume, queue management, lyrics toggle, casting (Spotify Connect), and share options.
 7. **Personalized Home Feed:** Dynamic homepage that displays recommended playlists like Daily Mixes, Discover Weekly, and Release Radar based on listening history, new releases, and curated sections and the time of day as well.
 8. **Playlist Creation & Management:** Provides the ability to create, edit, and organise custom playlists, add songs to library, collaborate on playlists with friends, reorder tracks with drag-and-drop, and download for offline listening Premium).
