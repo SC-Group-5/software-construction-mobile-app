@@ -14,24 +14,32 @@ This README contains our group's complete submission for Assignment 1. We analyz
 
 **What problem does this app solve?**  
 1. Relation to Copyright, spotify provides legal, licensed access to music, reducing illegal copying. Artists and record labels are paid for streams, which protects copyright ownership. By making music easy and affordable to access, Spotify helps prevent copyright infringement.
-2. Centralizing Music Genres, before Spotify, music was spread across platforms like HowBizz for local Ugandan music, Tubidy for international pop and hip-hop, and Boomplay for African genres. Spotify brought all these genres into one platform, making music easier to find and enjoy in one place.
-3. 
+2. Access & Convenience Problem as before streaming services, people had to buy individual albums/songs or rely on radio. Music was spread across platforms like HowweBiz for local Ugandan music, Tubidy for international pop and hip-hop, and Boomplay for African genres. Spotify provides instant access to millions of songs of all genres in one place on-demand from any device without needing to purchase, download, or store music files locally. You can listen anywhere, anytime.
+3. Artist Distribution & Monetisation: For artists, getting music to listeners traditionally required record labels and physical distribution. Spotify provides a direct distribution channel where independent artists can reach global audiences and earn royalties based on streams.
+
+Basically, Spotify democratised music access while solving the friction between discovery, cost, and convenience.
+
 **Who are its primary users?
-1. Music enthusiasts within a specific age range(most preferably youth).
-2. Music artists and producers looking to sell their music.
+1. Music enthusiasts, casual listeners, podcast listeners, and fitness users that are young adults (18-34 years). This is Spotify's largest demographic segment. Millenials and Gen Z are the most active users, comfortable with streaming technology and digital music consumption.
+2. Content creators, Artists and Podcasters. Musicians, bands, podcaster, and audiobook creators who upload and distribute content through Spotify. They use Spotify for Artists/Podcasters dashboards to track analytics and earnings.
 
 
 ## 2. Core Features
 
 List 5–7 key features of Spotify (based on current app experience):
 
-1. User authentication/The login and registration.
-2. The search button: There is no way to get quick access to most of the stored playlists and albums minus using the search button.
+1. User authentication and Profile System/The login or signup page: There are multiple options like Email, Google, Facebook and Apple. There is also profile managemet, and account settings where users can manage their subscription tier (Free, Premium, Family, Student plans).
+2. The search functionality: A powerful search bar that lets you find songs, artists, albums, playlists, podcasts, and audiobooks. It includes filters and a search history to quickly access previous queries.
 3. Offline Downloads: Permits saving content for offline use, emphasizing data storage strategies for reliability.
 4. Lyrics Display(Real-Time Synced): Shows timed lyrics during playback, a feature that ties UI with timing algorithms.
 5. Personalized Recommendations: Made for You sections like Daily Mixes, Discover Weekly, and Release Radar based on listening history.
 6. Creation and management of playlists: Create, edit, share, and collaborate on playlists; add/remove tracks.
 7. Streaming Playback & Controls 
+4. Music Player Controls: Full-featured playback interface with play/pause, skip, shuffle, repeat, volume control, queue management, lyrics display, and casting to other devices (Spotify Connect) as well the share button.
+5. Personalized Home Feed: Dynamic homepage that displays recommended playlists like Daily Mixes, Discover Weekly, and Release Radar based on listening history, new releases, and curated sections and the time of day as well.
+6. Playlist Creation & Management: Provides the ability to create, edit, and organise custom playlists, add songs to library, collaborate on playlists with friends, reorder tracks with drag-and-drop, and download for offline listening Premium).
+7. Payment & Subscription Management: In -app payment gateway for upgrading to Premium, managing billing information, changing subscription plans, and accessing payment history. Multiple payment methods supported (Credit card, mobile carrier billing)
+8. Library & Collection Organisation: "Your Library" section where you can organise saved songs, albums, artists, podcasts, and audiobooks into folders and custom categories for easy access and management 
 
 
 ## Part B: Thinking Behind the Scenes
@@ -65,12 +73,20 @@ List 5–7 key features of Spotify (based on current app experience):
       Verification may fail
       User cannot access their account
 
-Feature 2: The search button   
+Feature 2: The search functionality   
 - Likely software components involved:  
-  - User Interface (UI): Top search bar with autocomplete suggestions, category tabs (Songs, Artists, Albums, Playlists, Podcasts), grid/list of results with album art, titles, and play buttons.
-  - Business logic: Processes user query, applies ranking (popularity + personal history), generates autocomplete suggestions, filters by content type.
-  - Network / APIs: Calls Spotify’s Search API (and Browse API for suggestions), fetches real-time metadata and images.
-  - Data storage: Local cache of recent searches and suggestions for faster loading.
+  - User Interface (UI):
+    1. Search Bar/Input field with a test input box with a placeholder tex, a clear/X button to reset input.
+    2. Search suggestions dropdown with a list suggested search terms as you type, recent searches section.
+    3. Search button/icon with a clickable search icon to trigger search and active/inactive states.
+    4. Category Filter Tabs with tab buttons "All", "Songs", "Artists", "Albums", "Playlists", "Podcasts", "Profiles"
+    5. Search Results Container with a grid or list ayout for results and a scrollable area.
+    6. Results Cards/List items with thumbnail/album art image, title text, subtitle/artist name text, duration/ metadata text, play button overlay, three-dot menu (for options), and hover effects.
+    7. Empty State Display with "No results found" message
+    8. Search history panel with a list of recent searches, "clear all" button, and individual delete buttons per search term.
+  - Business logic: 
+  - Network / APIs: 
+  - Data storage: 
 
 - Does it require Internet? Yes (for full results and suggestions).
 - If Network Slow/Unavailable: Results load slowly or fail to appear; app falls back to cached searches or shows “No internet connection” message. Local library search may still work partially.
