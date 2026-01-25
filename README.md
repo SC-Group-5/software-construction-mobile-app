@@ -233,25 +233,24 @@ If Network Slow or Unavailable: Login fails, pages may not load, user cannot acc
 Identify **at least 5** engineering challenges in maintaining/improving Spotify. Explain each briefly.
 
 1. **Performance and scalability**  
-   [Brief explanation... e.g., Handling millions of concurrent streams and personalized recommendations requires massive backend scaling without latency.]
-    Ensuring the app stays fast and responsive even when many users are streaming at the same time, when millions of users play music simultaneously, servers can become overloaded. Engineers must prevent             buffering, slow loading, and crashes while still delivering personalized recommendations.
+    - Ensuring the app stays fast and responsive even when many users are streaming at the same time, when millions of users play music simultaneously, servers can become overloaded.
+    - Engineers must prevent   buffering, slow loading, and crashes while still delivering personalized recommendations.
 
 2. **Security and data privacy**  
-    Protecting user accounts and personal data while keeping login simple, spotify keeps users logged in using authentication tokens. If these tokens are not well protected, accounts can be compromised. User         listening history and personal data must also be secured during storage and transmission.
+    - Protecting user accounts and personal data while keeping login simple, spotify keeps users logged in using authentication tokens. If these tokens are not well protected, accounts can be compromised.
+    - User  listening history and personal data must also be secured during storage and transmission.
 
-4. **Testing across devices and OS versions**  
-   [Brief... e.g., Ensuring the app works consistently on thousands of Android/iOS devices, old/new versions, and varying hardware.]
-    Making sure the app works properly on all devices, spotify runs on many Android and iOS devices with different screen sizes, hardware limits, and operating system versions. Testing all these combinations is      difficult and time-consuming.
+3. **Testing across devices and OS versions**  
+    - Making sure the app works properly on all devices, spotify runs on many Android and iOS devices with different screen sizes, hardware limits, and operating system versions.
+    - Testing all these combinations is difficult and time-consuming.
 
-6. **Reliability under poor network conditions**  
-   [Brief... e.g., In areas with unstable internet (common in Uganda), buffering, offline fallbacks, and reconnection logic must be robust.]
-    Keeping the app usable when internet connections are slow or unstable, in areas with weak networks, the app must handle buffering, reconnection, and offline playback smoothly. Poor handling can lead to           crashes, failed downloads, or loss of user data.
+4. **Reliability under poor network conditions**  
+    - Keeping the app usable when internet connections are slow or unstable, in areas with weak networks, the app must handle buffering, reconnection, and offline playback smoothly.
+    - Poor handling can lead to crashes, failed downloads, or loss of user data.
 
-8. **Backward compatibility**  
-   [Brief... e.g., New features can't break older app versions or devices still in use by millions.]
-     Adding new features without breaking older app versions, many users still use older devices and operating systems. Engineers must ensure new updates do not cause failures on these devices, which limits how       fast the app can evolve.
-
-(Add more if you want, e.g., Tight coupling between features, handling large-scale data for recommendations.)
+5. **Backward compatibility**  
+     Adding new features without breaking older app versions, many users still use older devices and operating systems.
+   Engineers must ensure new updates do not cause failures on these devices, which limits how fast the app can evolve.
 
 ## Part E: Group Reflection
 
