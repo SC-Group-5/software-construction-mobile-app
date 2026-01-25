@@ -196,6 +196,7 @@ If Network Slow or Unavailable: Login fails, pages may not load, user cannot acc
   - It builds on existing device voice assistants (like Google Assistant, Siri, or built-in speech recognition) while adding app-specific deep integration for a seamless, Spotify-like experience.
     
 2.More training is needed for the model that works on recommendations, because most of the time, this model brings results that are totally different or still brings more recommendations of songs from one artist. This is a common problem with Afro music and Amapiano, in that it doesn't even differentiate between slow and fast Amapiano.
+
 3.**Search & Lyrics Handling.**
   - Cache more search results and lyrics locally for longer basing on the user experience,these can be used to provide results to the  user incase they decide to search while offline  or accessing lyrics offline.
 
@@ -216,8 +217,16 @@ If Network Slow or Unavailable: Login fails, pages may not load, user cannot acc
 
 
 **Why would this change be difficult to implement?**  
-1. Because the system is already deployed.
-2. 
+1. Because the system is already deployed
+     Millions of users rely on the current app, so changes must not break existing features or disrupt user experience.
+2. Voice control requires deep integration across many features
+     Adding AI voice commands affects search, playback, lyrics, playlists, and navigation, meaning many parts of the app must be redesigned to respond to voice instead of touch.
+3. High computational cost on low-end devices
+     Speech recognition, AI processing, and real-time responses require CPU, memory, and battery power, which low-end smartphones may not handle well.
+4. Complex testing and accessibility requirements
+     The feature must work across different accents, languages, noise levels, and devices, making testing and quality assurance much harder.
+5. Tight coupling with existing systems
+     Recommendation models, search, and playback systems are already tightly connected, so changing or extending them risks unexpected bugs and performance issues.
 
 ## Part D: Software Construction Challenges
 
@@ -225,19 +234,22 @@ Identify **at least 5** engineering challenges in maintaining/improving Spotify.
 
 1. **Performance and scalability**  
    [Brief explanation... e.g., Handling millions of concurrent streams and personalized recommendations requires massive backend scaling without latency.]
+    Ensuring the app stays fast and responsive even when many users are streaming at the same time, when millions of users play music simultaneously, servers can become overloaded. Engineers must prevent             buffering, slow loading, and crashes while still delivering personalized recommendations.
 
 2. **Security and data privacy**  
-   1. one time login that kepps you logged in and this maybe insecure.
-   2. 
+    Protecting user accounts and personal data while keeping login simple, spotify keeps users logged in using authentication tokens. If these tokens are not well protected, accounts can be compromised. User         listening history and personal data must also be secured during storage and transmission.
 
 4. **Testing across devices and OS versions**  
    [Brief... e.g., Ensuring the app works consistently on thousands of Android/iOS devices, old/new versions, and varying hardware.]
+    Making sure the app works properly on all devices, spotify runs on many Android and iOS devices with different screen sizes, hardware limits, and operating system versions. Testing all these combinations is      difficult and time-consuming.
 
-5. **Reliability under poor network conditions**  
+6. **Reliability under poor network conditions**  
    [Brief... e.g., In areas with unstable internet (common in Uganda), buffering, offline fallbacks, and reconnection logic must be robust.]
+    Keeping the app usable when internet connections are slow or unstable, in areas with weak networks, the app must handle buffering, reconnection, and offline playback smoothly. Poor handling can lead to           crashes, failed downloads, or loss of user data.
 
-6. **Backward compatibility**  
+8. **Backward compatibility**  
    [Brief... e.g., New features can't break older app versions or devices still in use by millions.]
+     Adding new features without breaking older app versions, many users still use older devices and operating systems. Engineers must ensure new updates do not cause failures on these devices, which limits how       fast the app can evolve.
 
 (Add more if you want, e.g., Tight coupling between features, handling large-scale data for recommendations.)
 
