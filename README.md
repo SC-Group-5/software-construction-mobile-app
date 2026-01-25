@@ -94,7 +94,11 @@ Feature 2: The search functionality
     6. Results Cards/List items with thumbnail/album art image, title text, subtitle/artist name text, duration/ metadata text, play button overlay, three-dot menu (for options), and hover effects.
     7. Empty State Display with "No results found" message
     8. Search history panel with a list of recent searches, "clear all" button, and individual delete buttons per search term.
-  - Business logic: 
+    9. Infinite Scroll Indicator with a oading spinner at bottom of results and "load more" button (alternative to infinite scroll)
+  
+  - Business logic:
+    1. Search Scope Determination which determines what to search based on active filter that is; "All" with search songs, artists, albums, playlists, podcasts, profiles and Specific tab to search only that content type
+    2. Check user's subscription tier which are the free users and includes ads in results, limit some features and the Premium users which highlights the full catalog access and the no ad results.
   - Network / APIs: 
   - Data storage: 
 
