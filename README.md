@@ -96,17 +96,6 @@ If Network Slow or Unavailable: Login fails, pages may not load, user cannot acc
      - Uses a local database or structured files to manage offline content organization and quick access
 - Requires Internet Connectivity?: Yes to download; No to play saved content.
 - If Network Slow or Unavailable: New downloads pause/fail; already-downloaded content plays normally.
-  Lyrics for new songs may not appear
-    Existing cached lyrics will display, but real-time sync may lag
-    1. Search Bar/Input field with a test input box with a placeholder tex, a clear/X button to reset input.
-    2. Search suggestions dropdown with a list suggested search terms as you type, recent searches section.
-    3. Search button/icon with a clickable search icon to trigger search and active/inactive states.
-    4. Category Filter Tabs with tab buttons "All", "Songs", "Artists", "Albums", "Playlists", "Podcasts", "Profiles"
-    5. Search Results Container with a grid or list ayout for results and a scrollable area.
-    6. Results Cards/List items with thumbnail/album art image, title text, subtitle/artist name text, duration/ metadata text, play button overlay, three-dot menu (for options), and hover effects.
-    7. Empty State Display with "No results found" message
-    8. Search history panel with a list of recent searches, "clear all" button, and individual delete buttons per search term.
- 
 
 **Feature 4: Lyrics Display(Real-Time Synced).** 
 - Likely software components involved:  
