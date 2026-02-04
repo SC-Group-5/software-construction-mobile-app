@@ -2,20 +2,20 @@
 **Group Assignment – End of Week 2 (Theory-Based)**
 
 ### 1. Difference between programming and software construction (with one real-world example)
+**Programming** is writing code to solve a specific problem or implement a feature using a programming language.
 
+**Software construction** is the complete engineering process that includes programming plus designing maintainable systems, thorough testing, debugging, documentation, integration, team collaboration, and ensuring long-term reliability and adaptability.
+
+**Example**  
+Writing a quick script to organize files by type is **programming**.  
+Building a global ride-sharing app like Uber (with real-time tracking, secure payments, scalability for millions of users, safety features, team development, and constant updates) is **software construction**.
 
 ### 2. Situation where poor maintainability could cause serious problems
 
 
 
 ### 3. Why version control is critical in team-based software development.
-1. It keeps a complete, permanent history of every modification, so the team always knows who changed what, when, and why and there will be no issues of data loss yet it can be recovered.
-2. It enables developers to create separate branches for new features, bug fixes, or ideas, and later merge only the successful work.
-3. It makes collaboration much easier by providing clear mechanisms to detect and resolve conflicts when two people edit the same piece of code.
-4. It allows the team to roll back to a previous working version quickly if a new change introduces serious problems.
-5. It provides traceability and accountability, which is especially important for debugging, auditing, compliance, and understanding decisions made months or years earlier.
-6. It builds trust among team members because everyone can see exactly what was changed and by whom, reducing blame and misunderstandings.
-7. It enables modern development practices such as continuous integration, code reviews, automated testing, and release management.
+
 
 
 
