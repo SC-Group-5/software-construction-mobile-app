@@ -7,12 +7,12 @@
 *Real-world example: Building an E-commerce Shopping Cart*
 **Programming perspective** A programmer writes a function to calculate the total price of items in a buyer's cart.
 **Software Construction perspective** A software engineer building the above same feature will have to consider;
--Error handling: What should happen if an item has an unvailable quantity of an invalid price.
--Testing: Writing standard tests to verify that the calculation works with cases like an empty cart, discounts.
--Integration: How this particular code connects to the database, payment gateway
--Performance: How will it perform when the cart has 100+ items?
--Maintainability: Using clear naming, adding documentation, following team coding standards
-Etensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
+1. Error handling: What should happen if an item has an unvailable quantity of an invalid price.
+2. Testing: Writing standard tests to verify that the calculation works with cases like an empty cart, discounts.
+3. Integration: How this particular code connects to the database, payment gateway
+4. Performance: How will it perform when the cart has 100+ items?
+5. Maintainability: Using clear naming, adding documentation, following team coding standards
+6. Extensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
 
 **Software construction** is the complete engineering process that includes programming plus designing maintainable systems, thorough testing, debugging, documentation, integration, team collaboration, and ensuring long-term reliability and adaptability.
 
