@@ -14,12 +14,6 @@
 5. Maintainability: Using clear naming, adding documentation, following team coding standards
 6. Extensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
 
-**Software construction** is the complete engineering process that includes programming plus designing maintainable systems, thorough testing, debugging, documentation, integration, team collaboration, and ensuring long-term reliability and adaptability.
-
-**Example**  
-Writing a quick script to organize files by type is **programming**.  
-Building a global ride-sharing app like Uber (with real-time tracking, secure payments, scalability for millions of users, safety features, team development, and constant updates) is **software construction**.
-
 ### 2. Situation where poor maintainability could cause serious problems
 
 
@@ -39,10 +33,10 @@ Code reviews also support developer learning and skill improvement. Through comm
 
 
 **Submitted by:** 
-- Alinda Rebecca
+- Rebecca Alinda
 - Anna Akumu
 - Oscar Odongkara
-- Namaganda Precious Wakaabi
-- Mukuma Joseph
+- Namaganda Precious Wakabi
+- Mukama Joseph
   
 **Date:** February 2026
