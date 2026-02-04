@@ -15,8 +15,12 @@
 6. Extensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
 
 ### 2. Situation where poor maintainability could cause serious problems
+**Poor maintainability occurs when code is hard to understand, change, or fix due to messy structure, lack of documentation, or 
+accumulated technical debt making updates, fixes, or scaling difficult and unreliable.
 
-
+**Example:** The biometric voter verification system (BVVKs) used in the 2026 general elections.
+Due to neglected maintenance and poor software upkeep, many devices failed on election day (January 15, 2026), rejecting fingerprints and refusing to start. This forced polling stations to revert to manual registers, causing long delays, reduced voter turnout, widespread frustration, and serious questions about electoral integrity.
+Better maintainability — through regular updates, thorough testing, and cleaner code — could have prevented these widespread failures and preserved trust in the voting process.
 
 ### 3. Why version control is critical in team-based software development.
 
