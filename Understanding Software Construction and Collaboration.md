@@ -2,7 +2,17 @@
 **Group Assignment – End of Week 2 (Theory-Based)**
 
 ### 1. Difference between programming and software construction (with one real-world example)
-**Programming** is writing code to solve a specific problem or implement a feature using a programming language.
+**Programming** focuses on translating logic into a programming language through the act of writing code to solve a specific problem or to implement an algorithm to solve a hypothesis.
+**Software Construction** is a much broader engineering concept that integrates programming plus other activities needed to build a working software system such as designing mocules, writing tests, debugging the code, integrating different components, managing the code quality and ensure that the code is maintainable.
+*Real-world example: Building an E-commerce Shopping Cart*
+**Programming perspective** A programmer writes a function to calculate the total price of items in a buyer's cart.
+**Software Construction perspective** A software engineer building the above same feature will have to consider;
+-Error handling: What should happen if an item has an unvailable quantity of an invalid price.
+-Testing: Writing standard tests to verify that the calculation works with cases like an empty cart, discounts.
+-Integration: How this particular code connects to the database, payment gateway
+-Performance: How will it perform when the cart has 100+ items?
+-Maintainability: Using clear naming, adding documentation, following team coding standards
+Etensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
 
 **Software construction** is the complete engineering process that includes programming plus designing maintainable systems, thorough testing, debugging, documentation, integration, team collaboration, and ensuring long-term reliability and adaptability.
 
