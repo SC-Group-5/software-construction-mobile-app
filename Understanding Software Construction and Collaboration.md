@@ -32,6 +32,15 @@ Code reviews improve software quality by allowing team members to examine each o
 Code reviews also support developer learning and skill improvement. Through comments and feedback on pull requests, developers learn better ways to structure code, write clearer logic, and follow best practices. Reviewing others’ pull requests helps team members understand different approaches to solving problems and improves their ability to read and evaluate code. The approval process on GitHub encourages collaboration and accountability, ensuring that code is not merged without review. Over time, this leads to improved teamwork, stronger coding skills, and higher-quality software.
 
 ### 5. How AI can help in understanding code without replacing learning
+AI helps students understand unfamiliar code by **breaking it into clear parts**. It can show how input, logic, and output are organised, so learners are not overwhelmed by long code. This supports careful reading instead of guessing.
+
+AI can **explain program logic step by step**, such as how conditions, loops, or inheritance work. For example, it can explain how a child class uses `super()` to reuse a parent class. This helps students see how ideas connect inside the code.
+
+AI is useful for **clarifying unfamiliar syntax and errors**. When students meet new keywords or error messages, AI can explain what they mean instead of fixing the code directly. This keeps the student thinking and learning.
+
+AI encourages learning by **guiding exploration, not giving final answers**. A student can change values, test different cases, or modify a class and then use AI to understand the results. Learning grows through doing and reflecting.
+
+In this way, AI supports learning **without replacing it**. It acts like a tutor or textbook, while the student remains responsible for analysing, testing, and understanding. AI supports the journey, but the student builds the knowledge 
 
 
 **Submitted by:** 
