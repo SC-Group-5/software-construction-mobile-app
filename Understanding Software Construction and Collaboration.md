@@ -23,10 +23,8 @@ Due to neglected maintenance and poor software upkeep, many devices failed on el
 Better maintainability — through regular updates, thorough testing, and cleaner code — could have prevented these widespread failures and preserved trust in the voting process.
 
 ### 3. Why version control is critical in team-based software development.
-
-
-
-
+Version control on GitHub tracks changes made to code over time, allowing developers to return to older versions and work together safely, which helps prevent mistakes and makes teamwork easier.
+In our group of five working on a project, we use GitHub as our version control platform, and under it we use Git, which is the actual version control system. Git is responsible for tracking changes, saving versions, and managing the project history. Through GitHub, we use tools like commits to save our work, branches to work on different features separately, and merges to combine our work into the main project. This setup allows everyone to work in an organised way, avoid conflicts, and return to earlier versions if mistakes happen.
 
 ### 4. How code reviews improve both software quality and developer skills.
 Code reviews improve software quality by allowing team members to examine each other’s code before it is merged into the main project. On platforms like GitHub, this is usually done through pull requests, where changes are reviewed before approval. During the review process, team members can spot bugs, logical errors, security issues, or inefficient code early, reducing the chance of serious problems later. Code reviews also help ensure that agreed coding standards and project requirements are followed consistently across the team.
