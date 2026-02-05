@@ -15,7 +15,7 @@
 6. Extensibility: Ensuring that the code can be maintained for example adding dynamic pricing later.
 
 ### 2. Situation where poor maintainability could cause serious problems
-**Poor maintainability occurs when code is hard to understand, change, or fix due to messy structure, lack of documentation, or 
+** Poor maintainability occurs when code is hard to understand, change, or fix due to messy structure, lack of documentation, or 
 accumulated technical debt making updates, fixes, or scaling difficult and unreliable.
 
 **Example:** The biometric voter verification system (BVVKs) used in the 2026 general elections.
