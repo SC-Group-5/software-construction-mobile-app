@@ -32,16 +32,21 @@ Code reviews improve software quality by allowing team members to examine each o
 Code reviews also support developer learning and skill improvement. Through comments and feedback on pull requests, developers learn better ways to structure code, write clearer logic, and follow best practices. Reviewing others’ pull requests helps team members understand different approaches to solving problems and improves their ability to read and evaluate code. The approval process on GitHub encourages collaboration and accountability, ensuring that code is not merged without review. Over time, this leads to improved teamwork, stronger coding skills, and higher-quality software.
 
 ### 5. How AI can help in understanding code without replacing learning
-AI helps students understand unfamiliar code by **breaking it into clear parts**. It can show how input, logic, and output are organised, so learners are not overwhelmed by long code. This supports careful reading instead of guessing.
+Explains complex code clearly – Breaks down difficult logic step by step and translates jargon into plain language.
 
-AI can **explain program logic step by step**, such as how conditions, loops, or inheritance work. For example, it can explain how a child class uses `super()` to reuse a parent class. This helps students see how ideas connect inside the code.
+Supports smarter debugging – Helps users understand why errors occur, not just how to fix them.
 
-AI is useful for **clarifying unfamiliar syntax and errors**. When students meet new keywords or error messages, AI can explain what they mean instead of fixing the code directly. This keeps the student thinking and learning.
+Uses helpful analogies – Connects abstract concepts to real-world examples for better understanding.
 
-AI encourages learning by **guiding exploration, not giving final answers**. A student can change values, test different cases, or modify a class and then use AI to understand the results. Learning grows through doing and reflecting.
+Acts as a learning assistant, not a shortcut – Encourages writing your own code first, then reviewing with AI feedback.
 
-In this way, AI supports learning **without replacing it**. It acts like a tutor or textbook, while the student remains responsible for analysing, testing, and understanding. AI supports the journey, but the student builds the knowledge 
+Improves code quality – Suggests optimizations, best practices, and alternative approaches.
 
+Saves time on syntax – Reduces frustration so learners focus on problem-solving and design thinking.
+
+Builds deeper understanding – Strengthens intuition and reasoning instead of promoting copy-paste habits.
+
+Takeaway: AI accelerates learning and understanding—but real mastery still comes from active practice, debugging, and thinking through problems. AI should be used as a study partner or guide, not as a shortcut. When used responsibly, it supports learning rather than weakening it.
 
 **Submitted by:** 
 - Rebecca Alinda
